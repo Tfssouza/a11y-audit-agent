@@ -20,4 +20,4 @@ The public case study uses four illustrative workflow mockups. They explain the 
 
 ## Image references
 
-Store the PNG files in `assets/screenshots/`. The README retains the requested “Illustrative mockup pending” blocks and planned references; an active image immediately below each block presents the completed illustration. These pending blocks refer to the reserved presentation slots, not to real screenshots.
+Store the PNG files in `assets/screenshots/`. The README displays the four completed illustrations below their respective “Illustrative workflow mockup” blocks. These images explain the workflow using fictional examples; they are not real screenshots.

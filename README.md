@@ -1,5 +1,7 @@
 # A11y Audit Agent
 
+![A11y Audit Agent — illustrative project cover](assets/a11y-audit-agent-cover.png)
+
 **AI-assisted accessibility auditing with mandatory human validation.**
 
 A personal project designed and built by **Thayrine Souza** to bring a structured, adaptable QA workflow to accessibility investigation and issue preparation.
@@ -14,6 +16,18 @@ I initially developed and tested the agent independently against public websites
 ## Visual note
 
 The images are illustrative mockups, not real screenshots of the private implementation. They were created to explain the workflow while preserving privacy and confidentiality. Any example values or findings shown are fictional and do not constitute real audit evidence.
+
+## Contents
+
+- [The problem](#the-problem)
+- [The solution](#the-solution)
+- [How it works](#how-it-works)
+- [Designed around the auditor, not the other way around](#designed-around-the-auditor-not-the-other-way-around)
+- [Current accessibility scope](#current-accessibility-scope)
+- [Mandatory human validation](#mandatory-human-validation)
+- [Results and lessons learned](#results-and-lessons-learned)
+- [Limitations](#limitations)
+- [Private implementation and confidentiality](#private-implementation-and-confidentiality)
 
 ---
 
@@ -108,7 +122,7 @@ The agent gathers the information required to work within the current audit, suc
 
 This ensures that the investigation starts with explicit boundaries instead of analysing pages without context.
 
-> **Illustrative mockup pending — Audit setup**
+> **Illustrative workflow mockup — Audit setup**
 >
 > An illustrative workflow mockup will show the initial audit configuration using fictional example values.
 
@@ -144,7 +158,7 @@ A broader strategy can investigate a larger part of the defined scope.
 
 The agent can recommend an approach, but **the auditor makes the decision**.
 
-> **Illustrative mockup pending — Sitemap discovery and strategy selection**
+> **Illustrative workflow mockup — Sitemap discovery and strategy selection**
 >
 > An illustrative workflow mockup will show website structure and the auditor’s strategy decision using fictional example values.
 
@@ -166,7 +180,7 @@ During investigation, the agent organizes potential occurrences with contextual 
 
 The result is intentionally presented as an **observation requiring review**, not as an automatically confirmed accessibility failure.
 
-> **Illustrative mockup pending — Criterion investigation**
+> **Illustrative workflow mockup — Criterion investigation**
 >
 > An illustrative workflow mockup will show a fictional potential observation awaiting human validation, not a confirmed failure.
 
@@ -208,7 +222,7 @@ The auditor reviews the final content before publication.
 
 **Issue publication remains intentionally human-controlled.**
 
-> **Illustrative mockup pending — GitHub issue preparation**
+> **Illustrative workflow mockup — GitHub issue preparation**
 >
 > An illustrative workflow mockup will show a fictional validated finding and issue draft ready for human review before publication.
 
@@ -358,7 +372,7 @@ Four illustrative workflow mockups explain audit setup, sitemap discovery and st
 
 The mockups use fictional example values to explain the workflow while preserving privacy and confidentiality. They are not direct captures of the actual agent, real audit evidence or a reproducible implementation.
 
-See the [visual guide](docs/SCREENSHOT-GUIDE.md) for filenames and presentation guidance.
+See the [visual guide](docs/VISUAL-GUIDE.md) for filenames and presentation guidance.
 
 ---
 
@@ -367,7 +381,7 @@ See the [visual guide](docs/SCREENSHOT-GUIDE.md) for filenames and presentation 
 | File or folder | Purpose |
 | --- | --- |
 | [README.md](README.md) | Project case study. |
-| [docs/SCREENSHOT-GUIDE.md](docs/SCREENSHOT-GUIDE.md) | Illustrative workflow mockup plan and presentation guidance. |
+| [docs/VISUAL-GUIDE.md](docs/VISUAL-GUIDE.md) | Illustrative workflow mockup plan and presentation guidance. |
 | [assets/screenshots/](assets/screenshots/README.md) | Illustrative workflow mockups for public presentation. |
 
 This is a documentation-only showcase. There are no installation steps, agent scripts or live GitHub integration in this repository.
