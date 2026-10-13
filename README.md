@@ -8,8 +8,12 @@ I initially developed and tested the agent independently against public websites
 
 > **Project showcase**
 >
-> This repository documents the project, its design decisions, workflow and outcomes.
-> The agent's private implementation, operational instructions and configuration are intentionally not distributed.
+> This repository is a documentation-only portfolio showcase and public case study, not an independently reproducible release. Its visuals are illustrative workflow mockups created for public presentation. They do not expose the private implementation, internal instructions or real audit data.
+> The real agent, prompts, operational instructions and configuration remain private and are intentionally not distributed.
+
+## Visual note
+
+The images are illustrative mockups, not real screenshots of the private implementation. They were created to explain the workflow while preserving privacy and confidentiality. Any example values or findings shown are fictional and do not constitute real audit evidence.
 
 ---
 
@@ -104,13 +108,11 @@ The agent gathers the information required to work within the current audit, suc
 
 This ensures that the investigation starts with explicit boundaries instead of analysing pages without context.
 
-> **Screenshot pending — Audit setup**
+> **Illustrative mockup pending — Audit setup**
 >
-> A reviewed public demonstration will show the initial audit configuration.
+> An illustrative workflow mockup will show the initial audit configuration using fictional example values.
 
-<!-- Future reviewed image:
-![Audit setup showing the agreed scope](assets/screenshots/01-audit-setup.png)
--->
+![Illustrative audit setup mockup with fictional target, selected criteria and scope](assets/screenshots/01-audit-setup.png)
 
 ---
 
@@ -142,13 +144,11 @@ A broader strategy can investigate a larger part of the defined scope.
 
 The agent can recommend an approach, but **the auditor makes the decision**.
 
-> **Screenshot pending — Sitemap discovery and strategy selection**
+> **Illustrative mockup pending — Sitemap discovery and strategy selection**
 >
-> A future reviewed demonstration will show how website structure is assessed before the audit strategy is selected.
+> An illustrative workflow mockup will show website structure and the auditor’s strategy decision using fictional example values.
 
-<!-- Future reviewed image:
-![Sitemap discovery and auditor-selected audit strategy](assets/screenshots/02-sitemap-and-strategy.png)
--->
+![Illustrative sitemap and strategy mockup with fictional URL counts and auditor-selected approach](assets/screenshots/02-sitemap-and-strategy.png)
 
 ---
 
@@ -166,13 +166,11 @@ During investigation, the agent organizes potential occurrences with contextual 
 
 The result is intentionally presented as an **observation requiring review**, not as an automatically confirmed accessibility failure.
 
-> **Screenshot pending — Criterion investigation**
+> **Illustrative mockup pending — Criterion investigation**
 >
-> The public demonstration will show a structured observation awaiting human validation.
+> An illustrative workflow mockup will show a fictional potential observation awaiting human validation, not a confirmed failure.
 
-<!-- Future reviewed image:
-![Criterion investigation with a structured observation awaiting human validation](assets/screenshots/03-finding-investigation.png)
--->
+![Illustrative investigation mockup with a fictional potential observation awaiting manual validation](assets/screenshots/03-finding-investigation.png)
 
 ---
 
@@ -210,13 +208,11 @@ The auditor reviews the final content before publication.
 
 **Issue publication remains intentionally human-controlled.**
 
-> **Screenshot pending — GitHub issue preparation**
+> **Illustrative mockup pending — GitHub issue preparation**
 >
-> The future image will use reviewed demonstration data.
+> An illustrative workflow mockup will show a fictional validated finding and issue draft ready for human review before publication.
 
-<!-- Future reviewed image:
-![GitHub issue draft prepared after human validation](assets/screenshots/04-issue-preparation.png)
--->
+![Illustrative issue draft mockup with a fictional validated finding awaiting human review before publication](assets/screenshots/04-issue-preparation.png)
 
 ---
 
@@ -337,7 +333,7 @@ The main lessons from development and refinement are:
 - **Consistent reporting supports review.** Evidence and recommendations are easier to assess when they follow an established structure.
 - **Human judgement remains essential.** The auditor must be able to reject, correct or supplement the agent's output.
 
-These are qualitative outcomes reported from my own use of the project. This showcase does not publish verified accuracy rates, time savings or coverage benchmarks. Public demonstration screenshots are still pending.
+These are qualitative outcomes reported from my own use of the project. This showcase does not publish verified accuracy rates, time savings or coverage benchmarks. Illustrative workflow mockups explain the workflow and are not evidence of these outcomes.
 
 ---
 
@@ -356,13 +352,13 @@ This project does not provide accessibility certification or an automatic confor
 
 ---
 
-## Public demonstration
+## Public showcase
 
-Four reviewed screenshots will illustrate the workflow: audit setup, sitemap discovery and strategy selection, criterion investigation, and issue preparation after validation.
+Four illustrative workflow mockups explain audit setup, sitemap discovery and strategy selection, criterion investigation, and issue preparation after human validation.
 
-The demonstration will use a public site unrelated to client or workplace activity. Captures will be reviewed to exclude private information and internal agent instructions. They will show authentic outputs without fabricating findings.
+The mockups use fictional example values to explain the workflow while preserving privacy and confidentiality. They are not direct captures of the actual agent, real audit evidence or a reproducible implementation.
 
-See the [screenshot guide](docs/SCREENSHOT-GUIDE.md) for the planned filenames and review process.
+See the [visual guide](docs/SCREENSHOT-GUIDE.md) for filenames and presentation guidance.
 
 ---
 
@@ -371,8 +367,8 @@ See the [screenshot guide](docs/SCREENSHOT-GUIDE.md) for the planned filenames a
 | File or folder | Purpose |
 | --- | --- |
 | [README.md](README.md) | Project case study. |
-| [docs/SCREENSHOT-GUIDE.md](docs/SCREENSHOT-GUIDE.md) | Screenshot plan and publication review guidance. |
-| [assets/screenshots/](assets/screenshots/README.md) | Reserved location for reviewed demonstration images. |
+| [docs/SCREENSHOT-GUIDE.md](docs/SCREENSHOT-GUIDE.md) | Illustrative workflow mockup plan and presentation guidance. |
+| [assets/screenshots/](assets/screenshots/README.md) | Illustrative workflow mockups for public presentation. |
 
 This is a documentation-only showcase. There are no installation steps, agent scripts or live GitHub integration in this repository.
 

@@ -1,5 +1,5 @@
-# Demonstration screenshots
+# Illustrative workflow mockups
 
-Reserved for four reviewed screenshots from a public demonstration.
+These four images are conceptual illustrations created for public presentation, not real screenshots of the private agent. Values and findings are fictional; the images are not audit evidence.
 
-No images have been added yet. See the [screenshot guide](../../docs/SCREENSHOT-GUIDE.md) for the planned filenames and privacy review.
+See the [visual guide](../../docs/SCREENSHOT-GUIDE.md) for filenames and privacy guidance.
