@@ -1,29 +1,23 @@
-# Screenshot guide
+# Illustrative workflow mockup guide
 
-The README reserves four screenshot positions. Images are pending; no generated mockups should be presented as evidence of the working agent.
+The public case study uses four illustrative workflow mockups. They explain the documented workflow without exposing the private implementation, prompts, internal instructions, configuration or real audit data. They are not real screenshots or evidence of a working implementation.
 
-Use one public demonstration site unrelated to client or workplace activity. Keep the same demonstration throughout so the images tell a continuous story. Share only the visible outputs needed to explain each stage.
-
-| Filename | What it should show |
+| Filename | What it illustrates |
 | --- | --- |
-| `01-audit-setup.png` | Audit scope and setup discussion. |
-| `02-sitemap-and-strategy.png` | Site discovery and the auditor's selected strategy. |
-| `03-finding-investigation.png` | A structured observation, context and human-validation status. |
-| `04-issue-preparation.png` | An issue draft prepared after validation, using demonstration data. |
+| `01-audit-setup.png` | Target, criteria, scope, strategy and repository setup. |
+| `02-sitemap-and-strategy.png` | Fictional sitemap structure and the auditor’s strategy decision. |
+| `03-finding-investigation.png` | A fictional potential observation awaiting manual validation, not a confirmed failure. |
+| `04-issue-preparation.png` | A fictional finding validated by the auditor and an issue draft awaiting human review before publication. |
 
-## Review before publication
+## Presentation and privacy
 
-- Exclude client names, workplace URLs and private repository names or links.
-- Exclude account identifiers, email addresses, credentials, tokens and session information.
+- Label every image as an illustrative workflow mockup.
+- Use fictional values and placeholder URLs; exclude client names, workplace URLs, account identifiers, credentials and private repository details.
 - Exclude prompts, internal instructions, agent instruction files and executable configuration.
-- Check browser tabs, sidebars, bookmarks, notifications and surrounding UI as well as the main content.
-- Crop unnecessary content. If redaction is needed, apply opaque redaction to a flattened exported image and inspect the result.
-- Remove sensitive metadata and use neutral filenames.
-- Ensure the visible result is authentic. Do not fabricate a finding to make the demonstration more impressive.
-- Keep text readable and provide descriptive alternative text. Do not rely on colour alone to explain a finding's status.
+- Keep text readable and provide descriptive alternative text. State validation status in words as well as colour.
+- Do not treat fictional findings as real audit evidence or claim accuracy, time savings, exhaustive coverage or automatic publication.
+- Keep the real agent, prompts, instructions and configuration private.
 
-## Add approved images
+## Image references
 
-Place the four reviewed images in `assets/screenshots/`. In the README, replace the corresponding pending notice and commented image reference with the active image reference. Update the caption and alternative text to describe what the actual image demonstrates.
-
-Review the README's capability and result statements against the final evidence. A screenshot of an issue draft does not prove automatic publication or measured performance gains.
+Store the PNG files in `assets/screenshots/`. The README retains the requested “Illustrative mockup pending” blocks and planned references; an active image immediately below each block presents the completed illustration. These pending blocks refer to the reserved presentation slots, not to real screenshots.
